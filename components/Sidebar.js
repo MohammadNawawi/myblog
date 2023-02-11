@@ -9,7 +9,7 @@ const Sidebar = () => {
         <div
           className="rounded-full bg-white w-[52px] h-[52px] flex
           justify-center
-          items-center"
+          items-center cursor-pointer hover:bg-slate-100"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -26,8 +26,7 @@ const Sidebar = () => {
         </div>
         <div
           className="rounded-full bg-white w-[52px] h-[52px] mt-4 flex
-          justify-center
-          items-center"
+          justify-center items-center cursor-pointer hover:bg-slate-100"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +44,7 @@ const Sidebar = () => {
         <div
           className="rounded-full bg-white w-[52px] h-[52px] mt-4 flex
           justify-center
-          items-center"
+          items-center cursor-pointer hover:bg-slate-100"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +62,7 @@ const Sidebar = () => {
         <div
           className="rounded-full bg-white w-[52px] h-[52px] mt-4 flex
           justify-center
-          items-center"
+          items-center cursor-pointer hover:bg-slate-100"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
