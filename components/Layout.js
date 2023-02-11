@@ -5,8 +5,9 @@ const Layout = () => {
   return (
     <div className="h-screen flex flex-row justify-start">
       <Sidebar />
-      <div className="bg-purple-500 flex-1 p-4 text-white border-1 border-dashed">
-        Dashboard
+      <div className=" flex-1 p-4 text-white border-1 border-separate border">
+        {/* Card Content */}
+        <h1 className="dark:text-black">HELLO</h1>
       </div>
     </div>
   );

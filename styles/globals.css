@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-gradient-to-r from-[#FFF6F7] to-[#E7FFFA] dark:text-gray-100 dark:bg-slate-900 duration-100;
+  }
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
